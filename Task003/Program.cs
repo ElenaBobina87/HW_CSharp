@@ -2,9 +2,9 @@
 
 System.Console.WriteLine("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-if (num==0)
-System.Console.WriteLine("Вы ввели 0");
-else if (num%2==0)
-System.Console.WriteLine($"{num} число четное");
+if (num == 0)
+    System.Console.WriteLine("Вы ввели 0");
+else if (num % 2 == 0)
+    System.Console.WriteLine($"{num} число четное");
 else
-System.Console.WriteLine($"{num} число нечетное");
+    System.Console.WriteLine($"{num} число нечетное");
